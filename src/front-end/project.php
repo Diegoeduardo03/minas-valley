@@ -126,7 +126,7 @@ body, html {
         </div>
 
  
-        <div id="HCB_comment_box">
+<div id="HCB_comment_box">
  <a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...
  </div>
  <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
