@@ -126,28 +126,25 @@ body, html {
         </div>
 
  
-<div> 
-  <h5> Comentarios </h5>
-  <textarea rows="4" cols="50" name="comentarios" form="ussform" placeholder="Comentarios aqui"></textarea>
-
- </div>
-
- <head>
+        <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatos</title>
+    <title>Comentarios</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Meus contatos</h1>
-    <button id="btnCarregaDados">Carrega Dados</button>
-    <div id="tela"></div>
+    <h1>Comentários</h1>
+   
+    <div id="formComentarios">
+        Nome: <input type="text" id="campoNome"><br>
+        Comentario: <br> <textarea rows="4" cols="30"> </textarea> <input type="text" rows="4" cols="30" id="campoComentario"> <br>
+        <button id="btnIncluirComentario">Enviar</button></br>
+        <br>
 
-    <div id="formContatos">
-        nome: <input type="text" id="campoNome"><br>
-        telefone: <input type="text" id="campoTelefone"><br>
-        <button id="btnIncluirContato">Salvar</button>
-    </div>
+      </div>
+
+     <button id="btnCarregaDados">Carregar Comentarios</button>
+    <div id="tela"></div>
 
     <script src="app.js"></script>
 </body>
