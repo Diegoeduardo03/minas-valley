@@ -132,6 +132,27 @@ body, html {
 
  </div>
 
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meus contatos</h1>
+    <button id="btnCarregaDados">Carrega Dados</button>
+    <div id="tela"></div>
+
+    <div id="formContatos">
+        nome: <input type="text" id="campoNome"><br>
+        telefone: <input type="text" id="campoTelefone"><br>
+        <button id="btnIncluirContato">Salvar</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
 
 <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="redes">
     <h5>Nos siga em nossa redes sociais:</h5>
